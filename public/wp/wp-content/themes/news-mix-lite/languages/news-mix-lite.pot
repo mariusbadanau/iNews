@@ -1,0 +1,1002 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: News Mix Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Oct 08 2015 16:56:20 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Thu Oct 08 2015 16:56:26 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../comments.php:19
+msgid "at"
+msgstr ""
+
+#: ../comments.php:26
+msgid "Edit"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Name <span>(required):</span>"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Email <span>(required):</span>"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Your comment <span>(required):</span>"
+msgstr ""
+
+#: ../comments.php:78
+#, php-format
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:79
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: ../comments.php:79
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../comments.php:84
+msgid ""
+"<span class=\"title-line\"></span><span class=\"title-text\">Leave a "
+"comment</span>"
+msgstr ""
+
+#: ../comments.php:85
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:86
+msgid "<span class=\"title-text\">Cancel</span>"
+msgstr ""
+
+#: ../comments.php:87
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:108
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:108
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:108
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../footer.php:28 ../searchform.php:3 ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../footer.php:50
+msgid "Back to Top"
+msgstr ""
+
+#: ../header.php:24
+msgid "Breaking News"
+msgstr ""
+
+#: ../header.php:111
+msgid "Enter your search term..."
+msgstr ""
+
+#: ../header.php:124
+msgid "Logo"
+msgstr ""
+
+#: ../header.php:152
+msgid "Menu"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:303
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:304
+msgid "Install Plugins"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:305
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:306
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:307
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:312
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:317
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:322
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:327
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:332
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:337
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:342
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:347
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:352
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:357
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:362
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:368
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:369
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:370 ../api/TGMPluginActivation.class.php:
+#: 2989
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:371 ../api/TGMPluginActivation.class.php:
+#: 2810
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:372
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:373
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:374
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:375
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:376
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:494
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:495
+msgid "Update Required"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:610
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:808 ../api/TGMPluginActivation.class.php:
+#: 3404
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:925
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:925 ../api/TGMPluginActivation.class.php:
+#: 929
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:929
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:1114 ../api/TGMPluginActivation.class.php:
+#: 2806
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2177
+msgid "Required"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2180
+msgid "Recommended"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2197
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2201
+msgid "External Source"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2205
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2224
+msgid "Not Installed"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2228
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2230
+msgid "Active"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2236
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2239
+msgid "Requires Update"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2242
+msgid "Update recommended"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2250
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2299
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:2302
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:2305
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:2308
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../api/TGMPluginActivation.class.php:2394
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2402
+msgid "Installed version:"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2410
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2422
+msgid "Available version:"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2446
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2462
+msgid "Plugin"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2463
+msgid "Source"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2464
+msgid "Type"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2468
+msgid "Version"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2472
+msgid "Status"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2496
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2502
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2508
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2579
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2599
+msgid "Install"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2605
+msgid "Update"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2608
+msgid "Activate"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2667
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2669
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2792
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:2988
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3326
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3330
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3331
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3335
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3336
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3336 ../api/TGMPluginActivation.class.php:
+#: 3343
+msgid "Show Details"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3336 ../api/TGMPluginActivation.class.php:
+#: 3343
+msgid "Hide Details"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3337
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3338
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3342
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3343
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3344
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../api/TGMPluginActivation.class.php:3345
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/customize.php:12
+msgid "Latest Posts"
+msgstr ""
+
+#: ../inc/customize.php:20 ../inc/customize.php:31
+msgid "General Setting"
+msgstr ""
+
+#: ../inc/customize.php:26
+msgid "Logo Margin"
+msgstr ""
+
+#: ../inc/customize.php:35
+msgid "Single Post"
+msgstr ""
+
+#: ../inc/customize.php:39
+msgid "Social Links"
+msgstr ""
+
+#: ../inc/customize.php:43 ../inc/customize.php:324
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customize.php:49
+msgid "Top margin:"
+msgstr ""
+
+#: ../inc/customize.php:57
+msgid "Left margin:"
+msgstr ""
+
+#: ../inc/customize.php:65
+msgid "Right margin:"
+msgstr ""
+
+#: ../inc/customize.php:73
+msgid "Bottom margin:"
+msgstr ""
+
+#: ../inc/customize.php:83
+msgid "Responsive Layout"
+msgstr ""
+
+#: ../inc/customize.php:87 ../inc/customize.php:161
+msgid "Enable"
+msgstr ""
+
+#: ../inc/customize.php:88 ../inc/customize.php:162
+msgid "Disable"
+msgstr ""
+
+#: ../inc/customize.php:95
+msgid "Header Headline - Status"
+msgstr ""
+
+#: ../inc/customize.php:97
+msgid "Show/Hide headline"
+msgstr ""
+
+#: ../inc/customize.php:100 ../inc/customize.php:148 ../inc/customize.php:193 ..
+#: /inc/customize.php:218 ../inc/customize.php:231
+msgid "Show"
+msgstr ""
+
+#: ../inc/customize.php:101 ../inc/customize.php:149 ../inc/customize.php:194 ..
+#: /inc/customize.php:219 ../inc/customize.php:232
+msgid "Hide"
+msgstr ""
+
+#: ../inc/customize.php:108
+msgid "Header Headline - Title"
+msgstr ""
+
+#: ../inc/customize.php:116
+msgid "Header Headline - Light Title"
+msgstr ""
+
+#: ../inc/customize.php:124
+msgid "Header Headline - Category"
+msgstr ""
+
+#: ../inc/customize.php:126 ../inc/customize.php:136
+msgid "Choose category to display posts in headline"
+msgstr ""
+
+#: ../inc/customize.php:134
+msgid "Header Headline - Number Of Posts"
+msgstr ""
+
+#: ../inc/customize.php:143
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/customize.php:145
+msgid "Show/Hide Breadcrumb"
+msgstr ""
+
+#: ../inc/customize.php:156
+msgid "Home Menu Item"
+msgstr ""
+
+#: ../inc/customize.php:158
+msgid "Add home menu item as first item on main menu."
+msgstr ""
+
+#: ../inc/customize.php:169
+msgid "Top Banner"
+msgstr ""
+
+#: ../inc/customize.php:171
+msgid "Paste your Adsense, BSA or other ad code here to show ads on top banner."
+msgstr ""
+
+#: ../inc/customize.php:178
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customize.php:180
+msgid ""
+"Enter the content you want to display in your left footer (e.g. copyright "
+"text)."
+msgstr ""
+
+#: ../inc/customize.php:189
+msgid "Featured Post Thumbnail"
+msgstr ""
+
+#: ../inc/customize.php:190
+msgid "Show/Hide featured post thumbnail"
+msgstr ""
+
+#: ../inc/customize.php:202
+msgid "Post Thumbnail Style"
+msgstr ""
+
+#: ../inc/customize.php:205
+msgid "Small Thumbnail"
+msgstr ""
+
+#: ../inc/customize.php:206
+msgid "Large Thumbnail"
+msgstr ""
+
+#: ../inc/customize.php:214
+msgid "View Count On Post"
+msgstr ""
+
+#: ../inc/customize.php:215
+msgid "Show/Hide view count on post"
+msgstr ""
+
+#: ../inc/customize.php:227
+msgid "About Author"
+msgstr ""
+
+#: ../inc/customize.php:228
+msgid "Show/Hide about author"
+msgstr ""
+
+#: ../inc/customize.php:240 ../inc/customize.php:254
+msgid "Related Posts"
+msgstr ""
+
+#: ../inc/customize.php:242
+msgid "GET BY"
+msgstr ""
+
+#: ../inc/customize.php:245
+msgid "-- Hide --"
+msgstr ""
+
+#: ../inc/customize.php:246
+msgid "Tags"
+msgstr ""
+
+#: ../inc/customize.php:247
+msgid "Category"
+msgstr ""
+
+#: ../inc/customize.php:256
+msgid "LIMIT"
+msgstr ""
+
+#: ../inc/customize.php:265
+msgid "RSS URL"
+msgstr ""
+
+#: ../inc/customize.php:267
+msgid ""
+"Display the RSS feed button with the default RSS feed or enter a custom feed "
+"below.<code>Enter \"HIDE\" if you want to hide it</code>"
+msgstr ""
+
+#: ../inc/customize.php:274
+msgid "FACEBOOK URL"
+msgstr ""
+
+#: ../inc/customize.php:282
+msgid "TWITTER URL"
+msgstr ""
+
+#: ../inc/customize.php:290
+msgid "GOOGLE PLUS URL"
+msgstr ""
+
+#: ../inc/customize.php:298
+msgid "DRIBBBLE URL"
+msgstr ""
+
+#: ../inc/customize.php:306
+msgid "YOUTUBE URL"
+msgstr ""
+
+#: ../inc/customize.php:314
+msgid "FLICKR URL"
+msgstr ""
+
+#: ../inc/front.php:17
+msgid "Main Menu"
+msgstr ""
+
+#: ../inc/front.php:18
+msgid "Footer Menu"
+msgstr ""
+
+#: ../inc/front.php:34
+msgid "Flexslider Post Image (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:35
+msgid "Featured Post Thumbnail (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:36
+msgid "Carousel Post Thumbnail (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:37
+msgid "Tabs List Widget Post Thumbnail (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:38
+msgid "Entry List Widget Post Thumbnail 1 (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:39
+msgid "Entry List Widget Post Thumbnail 2 (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:40
+msgid "Flexslider Post Image 2 (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:41
+msgid "Video, Gallery Post Slider Image (Kopatheme)"
+msgstr ""
+
+#: ../inc/front.php:275
+msgid "Submit"
+msgstr ""
+
+#: ../inc/front.php:276
+msgid "Sending..."
+msgstr ""
+
+#: ../inc/front.php:279
+msgid "Please enter your name."
+msgstr ""
+
+#: ../inc/front.php:280 ../inc/front.php:292
+msgid "At least {0} characters required."
+msgstr ""
+
+#: ../inc/front.php:283
+msgid "Please enter your email."
+msgstr ""
+
+#: ../inc/front.php:284
+msgid "Please enter a valid email."
+msgstr ""
+
+#: ../inc/front.php:287
+msgid "Please enter your url."
+msgstr ""
+
+#: ../inc/front.php:288
+msgid "Please enter a valid url."
+msgstr ""
+
+#: ../inc/front.php:291
+msgid "Please enter a message."
+msgstr ""
+
+#: ../inc/front.php:311 ../inc/front.php:602 ../inc/front.php:605
+msgid "Home"
+msgstr ""
+
+#: ../inc/front.php:317 ../inc/layout.php:24
+msgid "Blog"
+msgstr ""
+
+#: ../inc/front.php:428
+#, php-format
+msgid "<span class=\"%1$s\">Your search for \"%2$s\""
+msgstr ""
+
+#: ../inc/front.php:433
+#, php-format
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: ../inc/front.php:436
+msgid "Page not found"
+msgstr ""
+
+#: ../inc/front.php:490
+msgid "Related Articles"
+msgstr ""
+
+#: ../inc/layout.php:7
+msgid "WIDGET AREA 13"
+msgstr ""
+
+#: ../inc/layout.php:8
+msgid "WIDGET AREA 17"
+msgstr ""
+
+#: ../inc/layout.php:32
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: ../inc/layout.php:40
+msgid "Page Full Width"
+msgstr ""
+
+#: ../inc/layout.php:46
+msgid "Page Full Width Widgets"
+msgstr ""
+
+#: ../inc/layout.php:54
+msgid "Single Right Sidebar"
+msgstr ""
+
+#: ../inc/layout.php:62
+msgid "404 Page"
+msgstr ""
+
+#: ../inc/sidebar.php:7
+msgid "Kopa Right Sidebar"
+msgstr ""
+
+#: ../inc/sidebar.php:10
+msgid "Kopa Page Fullwidth Sidebar"
+msgstr ""
+
+#: ../templates/error-404.php:7
+msgid "404"
+msgstr ""
+
+#: ../templates/error-404.php:10
+msgid "Page not found..."
+msgstr ""
+
+#: ../templates/error-404.php:11
+msgid ""
+"We're sorry, but we can't find the page you were looking for. It's probably "
+"some thing we've done wrong but now we know about it we'll try to fix it. In "
+"the meantime, try one of this options:"
+msgstr ""
+
+#: ../templates/error-404.php:14
+msgid "Go back to previous page"
+msgstr ""
+
+#: ../templates/error-404.php:16
+msgid "Go to homepage"
+msgstr ""
+
+#: ../templates/pagination.php:19
+msgid "Previous"
+msgstr ""
+
+#: ../templates/pagination.php:20
+msgid "Next"
+msgstr ""
+
+#: ../templates/post-navigation.php:6
+msgid "Previous Article"
+msgstr ""
+
+#: ../templates/post-navigation.php:16
+msgid "Next Article"
+msgstr ""
+
+#: ../templates/content/content-single-audio.php:20 ../templates/content/content-
+#: single-gallery.php:18 ../templates/content/content-single-video.php:32 ..
+#: /templates/content/content-single.php:30 ../templates/loop/loop-blog.php:21
+msgid "by"
+msgstr ""
+
+#: ../templates/content/content-single-audio.php:43 ../templates/content/content-
+#: single-gallery.php:35 ../templates/content/content-single-video.php:50 ..
+#: /templates/content/content-single.php:48 ../templates/loop/loop-page.php:12
+msgid "Page %"
+msgstr ""
+
+#: ../templates/loop/loop-single.php:11
+msgid "Author"
+msgstr ""
+
+#. Name of the theme
+msgid "News Mix Lite"
+msgstr ""
+
+#. Theme URI of the theme
+msgid ""
+"http://kopatheme.com/freebies/news-mix-magazine-wordpress-theme-light-"
+"version/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"News Mix theme is designed for magazine, news with flexible layout. The "
+"theme is based on KOPATHEME layout manager technique that will let you "
+"flexibility choose layout options of every pages within your site. It is "
+"very helpful when you are experimenting with visual hierarchy. You can "
+"define unlimited sidebar for widget areas, and with powerful custom widgets, "
+"the theme provides you more flexibility and ease-of-use for your site"
+msgstr ""
+
+#. Author of the theme
+msgid "Kopatheme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://kopatheme.com"
+msgstr ""

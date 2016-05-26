@@ -1,0 +1,46 @@
+{
+
+    "repositories": [
+        { "type":"composer", "url":"https://wpackagist.org" },
+
+        { "type": "package",
+            "package" : {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.4",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.4.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.1.0"
+                }
+            }
+        }
+    ],
+
+    "require": {
+        "composer/installers": "1.0.x-dev",
+        "wordpress": "4.4",
+         "wpackagist-theme/news-maxx-lite": "1.0.5"
+
+        
+    },
+
+    "require-dev": {
+         "wpackagist-plugin/debug-bar": "~0.8",
+        "wpackagist-plugin/debug-bar-console": "~0.3"
+    },
+
+    "minimum-stability": "dev",
+
+    "extra": {
+        "wp-content": "public/wp-content",
+        "webroot-dir": "public/wp",
+        "webroot-package": "wordpress",
+        "installer-paths": {
+            "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
